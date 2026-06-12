@@ -1,0 +1,6 @@
+console.log(5 == "5"); // Verdadeiro - (Pois compara apenas o valor, o 5 com o 5)
+console.log(5 === "5"); // Falso number e strig - (Pois compara o valor e o tipo, primeiro 5- tipo number, segundo 5- tipo String)
+console.log(0 == false); // Verdadeiro 0 - (Pois ele compara os valores, number 0, e strig falso, não se compara os tipos, assim lendo primeiro o 0, teria que declarar ja o tipo Boolean)
+console.log(0 === false); //  Falso, False - (Pois, pois ele compara os valores e o tipo, assim lendo primeiro a string (o tipo) para ai sim comparar com o valor (0). Declarando o tipo Boolean)
+console.log(null == undefined); // Verdadeiro Null - (Pois ele lê primeiro o Null, comparando apenas valores, como lê primeiro o Null, ja trás como indefinido)
+console.log(null === undefined); // Falso Null - (Pois ele compara tipo e valores, assim lendo o tipo Undefined (Indefinido, sem valor) e depois compara com o Null (Indefinido também, porém pode se atribuir um valor a ele, só não está visivel, presente))
